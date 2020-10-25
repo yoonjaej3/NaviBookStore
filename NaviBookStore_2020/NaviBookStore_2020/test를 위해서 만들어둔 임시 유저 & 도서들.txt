@@ -1,0 +1,74 @@
+test할 임시 유저들
+======================================
+
+insert into users (id, name, pwd, address, tel) values ('admin','관리자','@admin12','서울 역삼','000-000');
+insert into users (id, name, pwd, address, tel) values ('test01','test01','@test01','경기도 안산','000-001');
+
+
+test를 위한 20개 도서 데이터들
+========================================
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'다산에듀','완전학습 바이블','임작가','1-10-0');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'웅진지식하우스','살고 싶다는 농담','허지웅','0-5-3');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'앤의 서재','어른의 어휘력','유선경','3-4-5');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'어크로스','공부란 무엇인가','김영민','0-8-7');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'비즈니스북스','투자의 모험','스티븐 슈워츠먼','6-9-2');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'문학과지성사','바비의 분위기','박민정','1-2-2');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'을유문화사','나의 사적인 예술가','윤혜정','10-19-1');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'검은숲','팅커벨 죽이기','고바야시 야스미, 김은모(옮긴이)','7-9-0');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'수작걸다','주당셰프들의 오늘밤 술안주','이재훈, 임철호,정지선,안재현','0-4-0');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'곰출판','맛있다, 과학 때문에','박용기','6-9-1');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'좋은땅','바젤3 모멘트','박홍기','7-8-9');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'인플루엔셜(주)','다시수학이 필요한 순간','김민형','4-1-5');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'황금가지','인스티튜트1~2','스티븐킹 ,이은선(옮긴이)','2-5-8');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'다산북스','이토록 공부가 재미있어지는 순간','박성혁','6-3-9');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'동아시아','남극이 부른다','박숭현','5-7-3');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'은행나무','무엇을 위해 살죠?','박진영','6-9-2');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'문학동네','이별이 오늘 만나자고 한다','이병률','9-0-1');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'열린책들','심판','베르나르 베르베르, 전미연(옮긴이)','8-3-0');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'창비','여름 언덕에서 배운 것','안희연','7-2-4');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'윌북','책 좀 빌려줄래?','그랜트 스나이더, 홍한결(옮긴이)','7-1-0');
+
+======================================= 자료
+
+
+
+drop table book;

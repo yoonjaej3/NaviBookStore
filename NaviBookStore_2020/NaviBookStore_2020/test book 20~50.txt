@@ -1,0 +1,91 @@
+--20
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'스노우폭스북스','돈의 속성','김승호','6-1-5');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'스튜디오오드리','트바로티 김호중','김호중','8-1-4');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'페이지2북스','부의 대이동','오건영','7-2-3');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'웅진지식하우스','김미경의 리부트','김미경','7-0-1');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'지식노마드','존리의 부자되기 습관','존리','1-1-5');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'수오서재','더 해빙','이서윤','3-0-1');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'길벗','주식투자 무작정 따라하기','윤재수','1-1-0');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'21세기북스','킵고잉','주언규','7-2-4');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'김영사','죽은 자의 집 청소','김완','5-3-0');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'창비','아몬드','손원평','3-3-1');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'맑은소리','20대, 자기계발에 미쳐라','이지성','10-1-20');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'위즈덤하우스','배려','한상복','6-1-10');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'민음사','자기개발의 정석','임성순','16-4-22');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'돌베개','자유의 의지 자기계발의 의지','서동진','9-11-23');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'위즈덤하우스','경청','조신영, 박현찬','7-5-2');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'양성원','UP 자기개발능력','김경진','19-8-26');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'공동체','자기개발능력의 이해와 학습','박윤희','18-1-25');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'학지사','자기개발과 진로설계','임경희','20-2-25');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'양성원','인성함양과 자기계발','조성진','17-7-20');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'모요사','자기계발의 덫','미키 맥기','11-7-6');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'다연','성숙한 어른이 갖춰야 할 좋은 심리 습관','류쉬안','5-1-1');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'부키','노화의 종말','데이비드 A. 싱클레어','7-3-0');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'열린책들','기억','베르나르 베르베르 ','20-5-30');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'놀','애쓰지 않고 편안하게 ','김수현','5-1-4');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'안드로메디안','초집중','니르 이얄','20-7-22');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'더퀘스트','인생의 태도','웨인 다이어','6-1-9');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'문학동네','시선으로부터,','정세랑','20-6-5');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'갤리온','기분이 태도가 되지 않게 ','레몬심리','12-60-30');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'강한별','괜찮지 않은데 괜찮은 척했다 ','글배우','21-15-23');
+
+insert into book (bookno, publisher, bookname, author, count) 
+ values ((select nvl(max(bookno)+1,1)from book),'쌤앤파커스','코리안드림','문현진','16-20-17');
+
